@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-// import styles from '@/styles/globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,32 +15,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        {/* make navbar single page*/}
-        <nav className={styles.navbar}>
-          <a className={styles.navbar_link} class="mr-5" href="#about">
-            About
-          </a>
-          <a className={styles.navbar_link} class="mr-5" href="#skills">
-            Skills
-          </a>
-          <a className={styles.navbar_link} class="mr-5" href="#projects">
-            Projects
-          </a>
-          <a className={styles.navbar_link} class="mr-5" href="#contact">
-            Contact
-          </a>
-        </nav>
-        <div className={styles.container}>
-          <div className={styles.content}>
-            <h1 className={styles.title}>
-              Hi, I'm <span className={styles.title_name}>Sulaiman Saleh</span>
-            </h1>
-            <p className={styles.description}>
-              I'm a Fullstack Developer based in Bandung, Indonesia. I have a
-              passion for building beautiful, functional, and user-friendly
-              websites.
-            </p>
-          </div>
+        <div className={styles.description}>
+          <p>
+            Hello World
+          </p>
+        </div>
+        <div className={styles.center}>
+          <h1
+            className={styles.title}>
+            Sulaiman Saleh
+          </h1>
         </div>
       </main>
     </>
