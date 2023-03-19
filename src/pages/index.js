@@ -1,9 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -14,18 +10,158 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Hello World
-          </p>
-        </div>
-        <div className={styles.center}>
-          <h1
-            className={styles.title}>
+      <main>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className={`flex flex-col items-center justify-center`}>
+          <h1 className={'text-5xl'}>
             Sulaiman Saleh
           </h1>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <section id="about" className={`flex flex-col items-center justify-center`}>
+          <h2 className={'text-5xl'}>About</h2>
+          <div className={`flex flex-col items-center justify-center my-5`}>
+            <p className={'text-2xl'}>
+              Sulaiman Saleh is a software engineer based in Indonesia.
+            </p>
+            <p className={'text-2xl'}>
+              I have a passion for developing and building web applications.
+            </p>
+            <p className={'text-2xl'}>
+              I love to create beautiful and functional websites.
+            </p>
+          </div>
+        </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <section id="skills" className={`flex flex-col items-center justify-center`}>
+          <h2 className={'text-5xl'}>Skills</h2>
+          <div className={`flex flex-col items-center justify-center my-5`}>
+            <p className={'text-2xl'}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p className={'text-2xl'}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p className={'text-2xl'}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <section id="projects" className={`flex flex-col items-center justify-center`}>
+          <h2 className={'text-5xl'}>Projects</h2>
+          <div className={`flex flex-col items-center justify-center my-5`}>
+            <p className={'text-2xl'}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p className={'text-2xl'}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p className={'text-2xl'}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <section id="contact" className={`flex flex-col items-center justify-center`}>
+          <h2 className={'text-5xl'}>Contact</h2>
+          <div className={`flex flex-col items-center justify-center my-5`}>
+            <p className={'text-2xl'}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p className={'text-2xl'}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p className={'text-2xl'}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </main>
     </>
   )
