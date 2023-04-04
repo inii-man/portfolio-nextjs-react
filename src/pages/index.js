@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Canvas, useFrame } from '@react-three/fiber'
-import Rainbow from '../components/Rainbow'
 import { useRef } from 'react'
 import Spline from '@splinetool/react-spline';
 
