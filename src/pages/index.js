@@ -1,5 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Canvas, useFrame } from '@react-three/fiber'
+import Rainbow from '../components/Rainbow'
+import { useRef } from 'react'
+import Spline from '@splinetool/react-spline';
+
 
 export default function Home() {
   return (
@@ -11,41 +16,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <div className={`flex flex-col items-center justify-center`}>
+        {/* <section id="home" className={`flex flex-col items-center justify-center`}>
           <h1 className={'text-5xl'}>
-            Sulaiman Saleh
+            Title
           </h1>
-        </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        </section> */}
+        <section id="home" className='flex w-screen h-screen min-h-screen flex-col items-center justify-center'>
+          {/* <div className='relative'> */}
+          <Spline scene="https://prod.spline.design/UXhyA1qsguF3e8tf/scene.splinecode" />
+          {/* </div> */}
+        </section>
         <section id="about" className={`flex flex-col items-center justify-center`}>
           <h2 className={'text-5xl'}>About</h2>
           <div className={`flex flex-col items-center justify-center my-5`}>
@@ -60,21 +40,6 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <section id="skills" className={`flex flex-col items-center justify-center`}>
           <h2 className={'text-5xl'}>Skills</h2>
           <div className={`flex flex-col items-center justify-center my-5`}>
@@ -89,21 +54,6 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <section id="projects" className={`flex flex-col items-center justify-center`}>
           <h2 className={'text-5xl'}>Projects</h2>
           <div className={`flex flex-col items-center justify-center my-5`}>
@@ -118,21 +68,6 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <section id="contact" className={`flex flex-col items-center justify-center`}>
           <h2 className={'text-5xl'}>Contact</h2>
           <div className={`flex flex-col items-center justify-center my-5`}>
@@ -147,21 +82,6 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </main>
     </>
   )
